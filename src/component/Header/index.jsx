@@ -3,6 +3,8 @@ import "./Header.css";
 import HeaderTitle from "../../ui/HeaderTitle";
 import { profile1 } from "../../assets";
 import CodeBlock from "../../ui/CodeBlock";
+import Facts from "../../ui/Facts";
+import SocialHandles from "../../ui/SocialHandles";
 
 const code = `const developer={
         firstName:"Rohit",
@@ -14,7 +16,7 @@ const code = `const developer={
         // code();
         // repeat();
         }
-         };`
+         };`;
 
 function Header() {
   return (
@@ -34,6 +36,15 @@ function Header() {
         </div>
         <div className=" card grid lower">
           <CodeBlock language={"JavaScript"} code={code} />
+          <div>
+            <p className="">
+              Experienced React Developer | Crafting Dynamic and Interactive Web
+              Applications with React, HTML, CSS, and JavaScript | Prompt
+              Engineer | AI Tutor
+            </p> 
+            <Facts/>
+           <SocialHandles/>
+          </div>
         </div>
       </div>
     </header>
