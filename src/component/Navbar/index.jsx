@@ -16,8 +16,8 @@ function Navbar() {
        
         <Logo />
       </div>
-      <aside className="flex__center sidebar">
-        <div className="flex sidebar_top">
+      <aside className={`flex__center sidebar ${showSidebar && "visible"}`}>
+        <div className="flex sidebar__top">
           <span className="icon__container close__btn" onClick={()=>setShowSidebar(!showSidebar)}>
             <FaTimes />
           </span>
