@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import HeaderTitle from "../../ui/HeaderTitle";
-import { profile1 } from "../../assets";
+import { Rohitbg } from "../../assets";
 import CodeBlock from "../../ui/CodeBlock";
 import Facts from "../../ui/Facts";
 import SocialHandles from "../../ui/SocialHandles";
@@ -30,7 +30,7 @@ function Header() {
           </div>
           <div className="column">
             <img
-              src={profile1}
+              src={Rohitbg}
               className="profile__photo"
               alt="profile photo"
             />

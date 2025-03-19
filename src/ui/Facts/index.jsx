@@ -10,9 +10,9 @@ export default function Facts() {
 
     useEffect(()=>{
         const timeoutId = setTimeout(()=>{
-            setExperience(10);
-            setProject(150);
-            setClient(2.5)
+            setExperience(2.0);
+            setProject(15);
+            setClient(2.5,"k")
         },3000);
         return ()=> clearTimeout(timeoutId);
     })
