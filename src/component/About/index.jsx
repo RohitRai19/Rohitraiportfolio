@@ -16,7 +16,7 @@ function About() {
               <div className="flex skill__group" key={index}>
                 {skill.data.map((list, key) => (
                   <div className="blur__overlay flex__center skill" key={key}>
-                    <div className="skill__logo">
+                       <div className="skill__logo ">
                       <img src={list.logo} alt="skill logo" />
                     </div>
                   </div>
@@ -31,7 +31,21 @@ function About() {
           <h1 className="title">
             I am <span className="color__primary">Rohit Rai</span>
           </h1>
-          <p className="text__muted description">Experience developer</p>
+          <p className="text__muted description">
+            a dedicated Frontend Developer and Prompt Engineer with over a{" "}
+            <span className="exp">2</span> year of experience in building
+            engaging, responsive web applications and optimizing AI models. I
+            specialize in React.js and JavaScript, creating dynamic UIs that
+            enhance user experience by 40%. In my prompt engineering experience,
+            I've successfully improved AI model accuracy by 30% using
+            Reinforcement Learning with Human Feedback (RLHF) and crafted
+            effective prompts that increased output relevance by 25%. My unique
+            skill set allows me to tackle challenges creatively, balancing
+            frontend development with AI-driven solutions. I love solving
+            problems, optimizing performance, and bringing ideas to life through
+            technology. If you're looking for someone who can combine technical
+            expertise with creative problem-solving, let's connect! 🚀🚀
+          </p>
         </div>
       </div>
     </section>

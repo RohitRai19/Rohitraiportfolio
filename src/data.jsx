@@ -26,7 +26,7 @@ import {
   tailwind,
   bootstrap,
   react,
-  reactnative,
+  promptengineering,
   emailicon,
   messengericon,
   whatsappicon,
@@ -150,8 +150,8 @@ export const projects = [
     demoLink: "https://google.com/",
     stacks: [
       {
-        name: "React Native",
-        logo: reactnative,
+        name: "Prompt Engineer",
+        logo: promptengineering,
       },
       {
         name: "XD",
@@ -189,8 +189,8 @@ export const projects = [
     demoLink: "https://google.com/",
     stacks: [
       {
-        name: "React Native",
-        logo: reactnative,
+        name: "Prompt Engineer",
+        logo: promptengineering,
       },
       {
         name: "Figma",
@@ -263,9 +263,9 @@ export const skills = [
         logo: react,
       },
       {
-        skill: "React Native",
+        skill: "Prompt Engineer",
         level: "Experienced",
-        logo: reactnative,
+        logo: promptengineering,
       },
     ],
   },
@@ -273,15 +273,15 @@ export const skills = [
 export const contactInfo = [
   {
     name: "Email",
-    value: "mradinuba@gmail.com",
-    link: "mailto:mradinuba@gmail.com",
+    value: "Rairohit385@gmail.com",
+    link: "mailto:rairohit385@gmail.com",
     icon: emailicon,
     btnIcon: <MdOutlineEmail />,
     color: "rgb(56,115,205)",
   },
   {
     name: "Messenger",
-    value: "Emmanuel Eze",
+    value: "Rohit Rai",
     link: "http://m.me/profile?id=profile-i",
     icon: messengericon,
     btnIcon: <RiMessengerLine />,
@@ -289,7 +289,7 @@ export const contactInfo = [
   },
   {
     name: "WhatsApp",
-    value: "+2348149121918",
+    value: "+91-7526079393",
     link: "https://api.whatsapp.com/send?phone=+2348149121918",
     icon: whatsappicon,
     btnIcon: <BsWhatsapp />,
@@ -300,52 +300,22 @@ export const socialHandles = [
   {
     name: "Fiverr",
     icon: <SiFiverr />,
-    link: "",
+    link: "https://www.fiverr.com/s/ZmaaK0Q",
   },
   {
     name: "Github",
     icon: <AiFillGithub />,
-    link: "",
+    link: "https://github.com/RohitRai19",
   },
   {
     name: "LinkedIn",
     icon: <AiFillLinkedin />,
-    link: "",
+    link: "https://linkedin.com/in/rohitrai19",
   },
   {
     name: "Youtube",
     icon: <AiFillYoutube />,
-    link: "https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
+    link: "https://www.youtube.com/",
   },
 ];
 
-export const testimonials = [
-  {
-    avatar: profile3,
-    name: "Samuel Eze",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-  },
-  {
-    avatar: profile4,
-    name: "Emmanuel Joseph",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-  },
-  {
-    avatar: profile5,
-    name: "Gloria Chiwendu",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-  },
-  {
-    avatar: profile6,
-    name: "Precious Stone",
-    review: ` Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-           veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea`,
-  },
-];

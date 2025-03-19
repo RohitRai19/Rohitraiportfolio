@@ -24,7 +24,7 @@ export { default as javascript } from "./icons/javascript.svg";
 export { default as tailwind } from "./icons/tailwind.svg";
 export { default as bootstrap } from "./icons/bootstrap.svg";
 export { default as react } from "./icons/react.svg";
-export { default as reactnative } from "./icons/reactnative.svg";
+export { default as promptengineering } from "./icons/prompt-engineering-logo.png";
 export { default as emailicon } from "./icons/email.png";
 export { default as messengericon } from "./icons/messenger.png";
 export { default as whatsappicon } from "./icons/whatsapp.png";
