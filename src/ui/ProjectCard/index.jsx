@@ -1,11 +1,12 @@
-import './Project.css'
-
-function ProjectCard({ title, category, image, description, stacks }) {
+import "./Project.css";
+function ProjectCard({ title, category, image, description, stacks, link }) {
   return (
     <div className="card project__card">
       <div className="project__card-top">
         <div className="picture">
+          <a className="project" href={link} target="_blank">
           <img src={image} alt="Project images" />
+          </a>
         </div>
       </div>
       <div className="project__card-bottom">
@@ -20,12 +21,13 @@ function ProjectCard({ title, category, image, description, stacks }) {
         </div>
         <p className="text__muted description">{description}</p>
         <div className="flex__center stacks">
-  {stacks && stacks.map((stack, index) => (
-    <div className="stack" key={index}>
-      <img src={stack.logo} alt="stack logo" />
-    </div>
-  ))}
-</div>
+          {stacks &&
+            stacks.map((stack, index) => (
+              <div className="stack" key={index}>
+                <img src={stack.logo} alt="stack logo" />
+              </div>
+            ))}
+        </div>
       </div>
     </div>
   );

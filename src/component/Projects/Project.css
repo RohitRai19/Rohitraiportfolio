@@ -7,12 +7,12 @@
 /* Responsiveness */
 
 @media(max-width:900px){
-    #project .projects__container{
+    .project__container{
         grid-template-columns: repeat(2,1fr);
     }
 }
-@media(max-width:900px){
-    #project .projects__container{
+@media(max-width:600px){
+    .project__container{
         grid-template-columns: 100%;
     }
 }

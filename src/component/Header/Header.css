@@ -30,6 +30,7 @@
 #header .profile__photo{
     object-fit: contain;
     filter: grayscale(100%);
+ 
 }
 
 @media (max-width:768px) {
@@ -47,5 +48,13 @@
     #header .social__handles__container{
         justify-content: center;
     }
+
+    #header .breath__circle{
+        position: absolute;
+        z-index: 1;
+        top: 215px;
+        left: 0px;
+    }
+
 
 }

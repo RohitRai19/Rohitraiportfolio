@@ -4,7 +4,7 @@ import { skills } from '../../data'
 import SkillCard from '../../ui/SkillCard'
 function Skill() {
   return (
-    <section id='skills'>
+    <section id='skill'>
       <div className="section__wrapper">
         <div className="section__header">
           <h2 className="shine">My Skills</h2>

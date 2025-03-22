@@ -59,19 +59,17 @@ export const services = [
     for speed, scalability, and accessibility, delivering a robust online presence.`,
   },
   {
-    title: "Content Creation",
+    title: "Prompt Engineering",
     icon: <GiIdea />,
     color: "var(--color-success)",
     colorRGB: "var(--color-success-rgb)",
-    description: `Producing compelling digital content that resonates with your audience. From blogs 
-                  and technical documentation to engaging website copy, I ensure your brand's message 
-                  is clear, impactful, and aligned with your business goals.`,
+    description: `I am a Prompt Engineer with 1+ year of experience optimizing AI models using RLHF and prompt engineering. I’ve improved AI accuracy by 30%, developed 50+ prompts, and curated high-quality datasets. Skilled in OpenAI APIs and AI model training, I focus on making AI smarter and more efficient`,
   },
 ];
 
 export const projects = [
   {
-    title: "AI Powered School",
+    title: "Food-website",
     image: project1,
     category: "UI/UX",
     description: `Transforming education with AI, our School UI Design project revolutionizes the 
@@ -79,11 +77,19 @@ export const projects = [
                      and intuitive navigation, our design empowers educators and students alike. Experience 
                      innovation at its finest as we pave the way for a smarter, more efficient educational 
                      journey.`,
-    demoLink: "https://google.com/",
+     link: "https://rohitrai19.github.io/food-website/",
     stacks: [
       {
         name: "XD",
         logo: xd,
+      },
+      {
+        name: "CSS",
+        logo: css,
+      },
+      {
+        name: "JavaScript",
+        logo: javascript,
       },
     ],
   },
@@ -91,12 +97,8 @@ export const projects = [
     title: "E-Commerce Application",
     image: project2,
     category: "Web",
-    description: `Enhance your online shopping experience with our E-Commerce Application 
-      UI design project. Seamlessly blending aesthetics with functionality, our intuitive 
-      interface offers easy navigation, personalized recommendations, and secure 
-      transactions. Elevate your digital storefront and captivate customers with a visually 
-      stunning design tailored to your brand`,
-    demoLink: "https://google.com/",
+    description: `An e-commerce cloth website using React is a web-based platform designed to sell clothing items online. The website would have a user-friendly interface that allows customers to browse through a wide range of clothing products, select the ones they like, and purchase them using a secure payment gateway. The website would be built using the React JS`,
+    link: "https://golden-platypus-fd57b7.netlify.app",
     stacks: [
       {
         name: "ReactJs",
@@ -120,12 +122,8 @@ export const projects = [
     title: "Robotic Engineering Web Application",
     image: project3,
     category: "Web",
-    description: `Unlock the future of robotics with our Robotic Engineering Web Application
-      project. Seamlessly integrating cutting-edge technology, data analytics, 
-      and collaborative tools, our platform empowers engineers to design, simulate, 
-      and optimize robotic systems. Experience innovation at its peak as we redefine the 
-      boundaries of robotic engineering.`,
-    demoLink: "https://google.com/",
+    description: `This GitHub repository showcases a responsive React project that leverages the power of GPT-3 (OpenAI's Generative Pre-trained Transformer 3) for advanced natural language processing capabilities. The project combines the flexibility and interactivity of React with the cutting-edge capabilities of GPT-3 to create a dynamic and intelligent user exp`,
+    link: "https://fanciful-axolotl-01e4c1.netlify.app/",
     stacks: [
       {
         name: "ReactJs",
@@ -318,4 +316,3 @@ export const socialHandles = [
     link: "https://www.youtube.com/",
   },
 ];
-

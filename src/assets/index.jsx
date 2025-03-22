@@ -7,12 +7,12 @@ export { default as profile6 } from "./profile-6.jpeg";
 export { default as Rohitbg  } from "./Rohitbg.png"
 
 //Projects images export
-export { default as project1 } from "./project-1.png";
-export { default as project2 } from "./project-2.png";
-export { default as project3 } from "./project-3.jpg";
-export { default as project4 } from "./project-4.png";
-export { default as project5 } from "./project-5.png";
-export { default as project6 } from "./project-6.jpg";
+export { default as project1 } from "./foodWebsite.png";
+export { default as project2 } from "./Ecommerce.png";
+export { default as project3 } from "./gpt3.png";
+export { default as project4 } from "./project-1.png";
+export { default as project5 } from "./project-2.png";
+export { default as project6 } from "./project-3.jpg";
 
 //Icons export
 export { default as figma } from "./icons/figma.svg";

@@ -4,7 +4,7 @@ import { services } from "../../data";
 import ServiceCard from "../../ui/ServiceCard";
 function Service() {
   return (
-    <section id="service">
+    <section id="services">
       <div className="section__wrapper">
         <div className="section__header">
           <h2 className="shine">Service</h2>
